@@ -15,7 +15,8 @@ import { RiGithubLine, RiLinkedinBoxFill, RiTwitterFill } from "react-icons/ri";
 export const Home: React.FC<{}> = () => {
   return (
     <Flex
-      justify={{ base: "flex-end", md: "space-between" }}
+      justify={{ base: "flex-end", md: "space-around" }}
+      maxW="1000px"
       p="10px"
       align="center"
       minH="100vh"
@@ -66,7 +67,7 @@ export const Home: React.FC<{}> = () => {
           </Button>
         </a>
       </Stack>
-      <Box boxSize={{ base: "300px" }}>
+      <Box boxSize={{ base: "300px", md: "500px" }}>
         <Player
           autoplay
           loop

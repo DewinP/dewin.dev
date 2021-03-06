@@ -14,7 +14,7 @@ export const Layout: React.FC<{}> = ({ children }) => {
   return (
     <>
       <Navbar />
-      <Stack>{children}</Stack>
+      <Stack align="center">{children}</Stack>
       {showAlert && (
         <Alert
           justifyContent="center"
