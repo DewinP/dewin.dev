@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.js": "/dewin.dev/static/js/main.c9177751.chunk.js",
+    "main.js.map": "/dewin.dev/static/js/main.c9177751.chunk.js.map",
+    "runtime-main.js": "/dewin.dev/static/js/runtime-main.a8c20728.js",
+    "runtime-main.js.map": "/dewin.dev/static/js/runtime-main.a8c20728.js.map",
+    "static/js/2.75e5a787.chunk.js": "/dewin.dev/static/js/2.75e5a787.chunk.js",
+    "static/js/2.75e5a787.chunk.js.map": "/dewin.dev/static/js/2.75e5a787.chunk.js.map",
+    "index.html": "/dewin.dev/index.html",
+    "static/js/2.75e5a787.chunk.js.LICENSE.txt": "/dewin.dev/static/js/2.75e5a787.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a8c20728.js",
+    "static/js/2.75e5a787.chunk.js",
+    "static/js/main.c9177751.chunk.js"
+  ]
+}
