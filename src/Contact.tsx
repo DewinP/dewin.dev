@@ -13,7 +13,7 @@ export const Contact: React.FC<{}> = () => {
   const email = "dewinspena@gmail.com";
   const { hasCopied, onCopy } = useClipboard(email);
   return (
-    <Stack justify="center" h="100vh" align="center">
+    <Stack justify="center" minH="100vh" align="center">
       <Heading fontWeight="semibold">Reach me at:</Heading>
       <Flex mb={2}>
         <Input value={email} isReadOnly w="210px" />

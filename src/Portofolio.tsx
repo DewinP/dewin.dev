@@ -4,10 +4,10 @@ import { ProjectCard } from "./components/ProjectCard";
 
 export const Portofolio: React.FC<{}> = () => {
   return (
-    <Stack h="100vh" justify="center" align="center" spacing={0}>
+    <Stack minH="100vh" justify="center" align="center" spacing={0}>
       <Heading mb="20px">My projects</Heading>
       <Flex w="100%" justify="space-around" p="100px" align="center">
-        <Stack w="500px">
+        <Stack w="500px" display={{ base: "none", md: "flex" }}>
           <Player
             autoplay
             loop

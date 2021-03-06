@@ -3,7 +3,6 @@ import {
   AlertDescription,
   AlertIcon,
   AlertTitle,
-  Box,
   CloseButton,
   Stack,
 } from "@chakra-ui/react";
@@ -15,9 +14,7 @@ export const Layout: React.FC<{}> = ({ children }) => {
   return (
     <>
       <Navbar />
-      <Stack align="center" mt="-50px">
-        <Box w="1000px">{children}</Box>
-      </Stack>
+      <Stack>{children}</Stack>
       {showAlert && (
         <Alert
           justifyContent="center"

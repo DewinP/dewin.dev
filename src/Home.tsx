@@ -14,13 +14,17 @@ import { RiGithubLine, RiLinkedinBoxFill, RiTwitterFill } from "react-icons/ri";
 
 export const Home: React.FC<{}> = () => {
   return (
-    <Flex justify="space-between" p="10px" align="center" h="100vh">
+    <Flex
+      justify={{ base: "flex-end", md: "space-between" }}
+      p="10px"
+      align="center"
+      minH="100vh"
+      flexDir={{ base: "column-reverse", md: "row" }}
+    >
       <Stack maxW="500px" spacing={4}>
-        <Flex fontSize="40px" fontWeight="bold">
-          <Text>Hello, I'm</Text>
-          <Text ml="10px" color="#dc6e1a">
-            Dewin Pena
-          </Text>
+        <Flex fontSize="40px" fontWeight="bold" wrap="wrap">
+          <Text mr="10px">Hello, I'm</Text>
+          <Text color="#dc6e1a">Dewin Pena</Text>
         </Flex>
         <Text fontWeight="semibold">
           I am Full-Stack web developer who loves coding and exploring. I'm
@@ -62,7 +66,7 @@ export const Home: React.FC<{}> = () => {
           </Button>
         </a>
       </Stack>
-      <Box h="500px" w="500px">
+      <Box boxSize={{ base: "300px" }}>
         <Player
           autoplay
           loop
