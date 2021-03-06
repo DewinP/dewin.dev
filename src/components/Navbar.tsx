@@ -10,6 +10,7 @@ export const Navbar: React.FC<{}> = () => {
       top="0"
       position="sticky"
       justify="space-around"
+      backgroundColor="white"
       align="center"
     >
       <Flex>
