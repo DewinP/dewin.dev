@@ -12,7 +12,7 @@ import { Navbar } from "./Navbar";
 export const Layout: React.FC<{}> = ({ children }) => {
   const [showAlert, setShowAlert] = useState(true);
   return (
-    <>
+    <Stack minWidth="100%">
       <Navbar />
       <Stack align="center">{children}</Stack>
       {showAlert && (
@@ -21,6 +21,7 @@ export const Layout: React.FC<{}> = ({ children }) => {
           status="warning"
           bottom={0}
           position="sticky"
+          minW="100%"
         >
           <AlertIcon />
           <AlertTitle mr={2}>Thank you for visiting!</AlertTitle>
@@ -32,6 +33,6 @@ export const Layout: React.FC<{}> = ({ children }) => {
           />
         </Alert>
       )}
-    </>
+    </Stack>
   );
 };
