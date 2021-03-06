@@ -1,6 +1,6 @@
-import { Button, ButtonGroup, Flex, Heading, Text } from "@chakra-ui/react";
+import { Button, ButtonGroup, Flex, Heading } from "@chakra-ui/react";
 import React, { Fragment } from "react";
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link } from "react-scroll";
 
 export const Navbar: React.FC<{}> = () => {
   return (

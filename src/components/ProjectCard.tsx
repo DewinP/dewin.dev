@@ -52,12 +52,14 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({
           <Link href={githubURL}>
             <IconButton
               aria-label="Visit Github"
+              boxShadow="rgba(0, 0, 0, 0.16) 0px 1px 4px"
               icon={<RiGithubLine size="20px" />}
             />
           </Link>
           {deployedURL !== undefined ?? (
             <Link href={deployedURL}>
               <IconButton
+                boxShadow="rgba(0, 0, 0, 0.16) 0px 1px 4px"
                 aria-label="Visit demo"
                 icon={<BiLinkExternal size="20px" />}
               />
