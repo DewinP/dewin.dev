@@ -55,7 +55,7 @@ export const Home: React.FC<{}> = () => {
             />
           </Link>
         </ButtonGroup>
-        <a href="./files/resume.pdf" download>
+        <a href="../public/resume.pdf" download>
           <Button justify="center" align="center" w="200px">
             <Text>Resume</Text>
             <Player

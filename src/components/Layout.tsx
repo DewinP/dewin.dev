@@ -7,13 +7,11 @@ import {
   Stack,
 } from "@chakra-ui/react";
 import React, { useState } from "react";
-import { Navbar } from "./Navbar";
 
 export const Layout: React.FC<{}> = ({ children }) => {
   const [showAlert, setShowAlert] = useState(true);
   return (
-    <Stack minWidth="100%">
-      <Navbar />
+    <Stack>
       <Stack align="center">{children}</Stack>
       {showAlert && (
         <Alert

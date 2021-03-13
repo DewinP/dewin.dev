@@ -6,15 +6,19 @@ export const Portofolio: React.FC<{}> = () => {
   return (
     <Stack minH="100vh" justify="center" align="center" spacing={0}>
       <Heading mb="20px">My projects</Heading>
-      <Flex w="100%" justify="space-around" p="100px" align="center">
-        <Stack w="500px" display={{ base: "none", md: "flex" }}>
+      <Flex
+        justify="space-around"
+        p={{ base: "0", md: "100px" }}
+        align="center"
+      >
+        <Stack display={{ base: "none", md: "flex" }}>
           <Player
             autoplay
             loop
             src="https://assets7.lottiefiles.com/packages/lf20_QOeRfb.json"
           />
         </Stack>
-        <Stack>
+        <Stack maxW="400px" minW="350px">
           <ProjectCard
             inProgress
             name="Dig-It"

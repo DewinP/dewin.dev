@@ -26,14 +26,8 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({
   deployedURL,
   githubURL,
 }) => {
-  console.log(deployedURL);
   return (
-    <Stack
-      minW={{ base: "300px" }}
-      maxW="400px"
-      boxShadow="rgba(0, 0, 0, 0.16) 0px 1px 4px"
-      p="5px"
-    >
+    <Stack boxShadow="rgba(0, 0, 0, 0.16) 0px 1px 4px">
       <Box backgroundColor="red">
         <Player
           autoplay
